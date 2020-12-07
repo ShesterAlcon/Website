@@ -1,0 +1,302 @@
+<html>
+	<head>
+		<title>remake</title>
+
+		<style>
+
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.header {
+				overflow: hidden;
+				background-color: white;
+				width: 100%;
+			}
+
+			.header a.logo {
+  				float: left;
+			}
+
+			.header-right a:hover {
+ 	 			background-color: #ddd;
+  				color: black;
+  				border: solid;
+  				border-radius: 20%;
+			}
+
+			.header a {
+				float: left;
+				color: black;
+				text-align: center;
+				padding: 12px;
+			 	text-decoration: none;
+				font-size: 18px; 
+				line-height: 25px;
+				border-radius: 4px;
+			}
+
+			.header-right {
+  				float: right;
+  				font-family: 'Trebuchet MS', sans-serif;
+  				font-weight: bolder;
+  				background-color: white;
+  				padding: 20px;
+  				margin-top: 30px;
+  			}
+
+  			b.header-right {
+  				font-family: sans-serif;
+  				color: black;
+  				float: right;
+  			}
+
+			.inside{
+				width: 100%;
+				height: 30px;
+				background-color: white;
+				border-top: solid;
+				border-bottom: solid;
+				padding-top: 10px;
+				padding-bottom: 10px;
+
+			}
+			
+			.inside a.button {
+				font-family: 'Trebuchet MS', sans-serif;
+				float: left;
+				color: black;
+				text-decoration: none;
+				padding: 3px;
+				font-weight: bolder;
+				font-size: 20px;
+				margin-left: 10px;
+			}
+
+			.inside a.button:hover {
+				padding: 7px;
+			}
+
+			.content {
+			width: 100%;
+			height: 100%;
+			background-color: white;
+			}
+
+			.content b.left {
+				overflow-y: auto;
+				float: left;
+				border-right: transparent;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				width: 12.5%;
+				height: 140%;
+			}
+
+			.content a.button1 {
+				padding-left: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				text-align: left;
+	  			text-decoration: none;
+	  			font-family: OCR A Std, monospace;
+	  			font-size: 14px;
+	  			cursor: pointer;
+	  			font-weight: bold;
+	  			color: black;
+	  			float: left;
+			}
+
+			.content a.button1:hover {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				background-color: #f1f1f1
+			}
+
+			.content b.right {
+				width: 87.5%;
+				color: black;
+				padding: 10px;
+			}
+
+			.fling-minislide {
+				width:400px;
+				height:400px;
+				overflow:hidden; 
+				position:relative; 
+			}
+			.fling-minislide img { 
+				position:absolute; 
+				animation:fling-minislide 20s infinite; 
+				opacity:0; 
+				width: 100%; 
+				height: auto;
+			}
+
+			@keyframes fling-minislide {
+				25%{opacity:1;}
+				40%{opacity:0;}
+			}
+				.fling-minislide img:nth-child(4){animation-delay:0s;}
+				.fling-minislide img:nth-child(3){animation-delay:5s;}
+				.fling-minislide img:nth-child(2){animation-delay:10s;}
+				.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+			.footer {
+				width: 100%;
+				height:75px;
+			}
+
+			.center {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<!start of header>
+		<div class="header">
+			<a href="#default"class="logo">
+				<img src="OTV_LOGO.png">					<!LOGO>
+			</a>
+			  <div class="header-right">				
+    			<a class="active" href="#home">Home</a>		<!BUTTONS>
+    			<a href="#contact">Contact</a>
+    			<a href="#about">About</a>
+  			</div>
+		</div>
+		<!end of header>
+
+		<!Start of Context>
+		<div class="inside">
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">HOME</a>
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">START</a>
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">HTML</a>
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">CSS</a>
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">EXCERCISES</a>
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">REFERENCES</a>
+			<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button">W3SCHOOLS</a>
+		</div>
+		<!End of Context>
+
+		<!Start of Content>
+		<div class="content">
+			<b class="left">
+				<h2 style="text-indent: 10px">HTML Tutorial</h2>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">HTML Home</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">HTML Intro</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">HTML Editors</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">HTML Basic</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 79.5px;">HTML Elements</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">HTML Attributes</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">HTML Heading</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 69.5px;">HTML Paragraph</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">HTML Styles</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">HTML Formatting</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 69.7px;">HTML Qoutation</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 79.5px;">HTML Comments</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">HTML Colors</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 130px;">HTML CSS</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">HTML Links</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">HTML Image</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">HTML Tables</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">HTML Lists</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.7px;">HTML Classes</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 140px;">HTML Id</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.7px;">HTML Iframes</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">HTML Javascript</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">HTML File Paths</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">HTML Head</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">HTML Layout</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">HTML Responsive</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 39.4px;">HTML Computercode</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 69.5px;">HTML semantics</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 49.5px;">HTML style guide</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 79.5px;">HTML entities</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.7px;">HTML symbols</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">HTML emojis</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.7px;">HTML charset</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">HTML URL Encode</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 69.5px;">HTML vs. XHTML</a><br><br>
+				<h2 style="text-indent: 10px">CSS Tutorial</h2>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 130px;">CSS Home</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Intro</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">CSS Syntax</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">CSS Selector</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">CSS How To</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">CSS Comments</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">CSS Colors</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 69.5px;">CSS Background</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">CSS Borders</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">CSS Margins</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">CSS Padding</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 49.5px;">CSS Height/Widht</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 79.5px;">CSS Box Model</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">CSS Outline</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 130px;">CSS Text</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Fonts</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Icons</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Lists</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 110px;">CSS Tables</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">CSS Display</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 79.5px;">CSS Max-Width</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">CSS Position</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">CSS Overflow</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Float</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 49.5px;">CSS Inline-block</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Align</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 59.5px;">CSS Combinators</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 49.5px;">CSS Pseudo-class</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 29px;">CSS Pseudo-element</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 99.7px;">CSS Opacity</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 29px;">CSS Navigation Bar</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 79.5px;">CSS Dropdowns</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 39.4px;">CSS Image Gallery</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 39.4px;">CSS Image Sprites</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 39.4px;">CSS Attr Selector</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 120px;">CSS Forms</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 89.5px;">CSS Counters</a><br><br>
+				<a href="File:\\C:\Users\anacl\OneDrive\Desktop\CSS 2\under.html" class="button1" style="padding-right: 29px;">CSS Website Layout</a><br><br>
+			</b>
+
+			<b class="right">
+
+				<h1 style="font-family: garamond ;font-size: 90px; margin-top: 175px;float: right;margin-right: 400px;: ">HTML<br></h1>
+				<h4 style="float: right; margin-top: 300; margin-right: -375; font-size: 30px">The language for building web pages</h4>
+
+				<div class="fling-minislide" style="padding: 30px;float: left;margin-left: 100px;margin-top: 75px;background-color: lightgray;border-right: solid;border-width: 10px;">
+  					<img src="HTMLEXE4.jpg" alt="Slide 4" />
+  					<img src="HTMLEXE3.jpg" />
+  					<img src="HTMLEXE2.jpg" />
+  					<img src="HTMLEXE1.jpg" alt="Slide 1" />
+				</div>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+				<hr style="width: 80%; margin-left: 70px;">
+
+				<br><br><br>
+
+				<h1 style="font-family: garamond ;font-size: 90px; margin-top: 175px;float: right;margin-right: 475px;: ">CSS<br></h1>
+				<h4 style="float: right; margin-top: 300; margin-right: -300; font-size: 30px">The language for styling web pages</h4>
+
+				<div class="fling-minislide" style="padding: 30px;float: left;margin-left: 100px;margin-top: 75px;background-color: lightgray;border-right: solid;border-width: 10px;">
+  					<img src="HTMLEXE4.jpg" alt="Slide 4" />
+  					<img src="HTMLEXE3.jpg" />
+  					<img src="HTMLEXE2.jpg" />
+  					<img src="HTMLEXE1.jpg" alt="Slide 1" />
+				</div>
+			</b>
+
+		</div>
+		<!End of Content>
+
+		<!start of footer>
+		<div class="header" style="border-top: solid;">
+			<img src="OTV_LOGO.png" class="center">
+		</div>
+		<!end of footer>
+	</body>
+</html>
